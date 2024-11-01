@@ -1,6 +1,6 @@
 ## Data preparation
 
-- It support online or offline ocr. For offline ocr, you should first download [eval.zip](https://drive.google.com/file/d/14h1G_k0KyeizBoYo6LqOe_EQnqapifDU/view?usp=sharing). For online ocr, you should download the test images and annotation file from the corresponding benchmark.
+- It support online and offline ocr. For offline ocr, you should first download [eval.zip](https://drive.google.com/file/d/14h1G_k0KyeizBoYo6LqOe_EQnqapifDU/view?usp=sharing). For online ocr, you should download the test images and annotation file from the corresponding benchmark.
 - It contains custom annotations, scripts, and the prediction files with LLaVA v1.5. Extract to `eval`. This also provides a general structure for all datasets.
 
 After downloading all of them, organize the data as follows in `eval`.
