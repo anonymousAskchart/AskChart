@@ -7,7 +7,7 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 deepspeed askchart/train/train_mem.
     --deepspeed ./scripts/zero2.json \
     --model_name_or_path /hpc2hdd/home/askchart/sootung/models/LanguageBind/MoE-LLaVA-Phi2-Stage2-384 \
     --version plain \
-    --data_path ${JSON_FOLDER}/instruct_chart2table_OCR_no_order_v1.json \
+    --data_path ${JSON_FOLDER}/instruct_chart2table_OCR.json \
     --tune_image_tower True \
     --tune_entire_model False \
     --tune_vit_from_layer -1 \
@@ -48,8 +48,8 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 deepspeed askchart/train/train_mem.
     --deepspeed ./scripts/zero2.json \
     --model_name_or_path /hpc2hdd/home/askchart/sootung/models/LanguageBind/MoE-LLaVA-Phi2-Stage2-384 \
     --version phi \
-    --data_path ${JSON_FOLDER}/instruct_opencqa_OCR_no_order_v1.json ${JSON_FOLDER}/instruct_single_round_OCR_no_order_v1.json ${JSON_FOLDER}/instruct_chartqa_OCR_no_order_v1.json \
-                ${JSON_FOLDER}/chartqa_vp_reconstruct_shuffle_post.json ${JSON_FOLDER}/instruct_img_info_post_part1_OCR_no_order_v1.json ${JSON_FOLDER}/instruct_img_info_post_part2_OCR_no_order_v1.json \
+    --data_path ${JSON_FOLDER}/instruct_opencqa_OCR.json ${JSON_FOLDER}/instruct_single_round_OCR.json ${JSON_FOLDER}/instruct_chartqa_OCR.json \
+                ${JSON_FOLDER}/chartqa_vp_reconstruct_shuffle_post.json ${JSON_FOLDER}/instruct_img_info_post_part1_OCR.json ${JSON_FOLDER}/instruct_img_info_post_part2_OCR.json \
     --tune_image_tower True \
     --tune_entire_model True \
     --tune_vit_from_layer -1 \
@@ -99,9 +99,9 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 deepspeed askchart/train/train_mem.
     --deepspeed ./scripts/zero2.json \
     --model_name_or_path ./checkpoints/llavaphi-2.7b-finetune \
     --version phi \
-    --data_path ${JSON_FOLDER}/instruct_ChartQA_train_OCR_no_order_v1.json ${JSON_FOLDER}/instruct_chartQA_2table_train_augmented_OCR_no_order.json ${JSON_FOLDER}/instruct_chartQA_2table_train_human_OCR_no_order.json \
+    --data_path ${JSON_FOLDER}/instruct_ChartQA_train_OCR.json ${JSON_FOLDER}/instruct_chartQA_2table_train_augmented_OCR.json ${JSON_FOLDER}/instruct_chartQA_2table_train_human_OCR.json \
                 ${JSON_FOLDER}/instruct_spider_2table_cot.json ${JSON_FOLDER}/instruct_bird_train_2table_cot.json ${JSON_FOLDER}/instruct_bird_dev_2table_cot.json \
-                ${JSON_FOLDER}/instruct_chart2text_dataset_OCR_no_order_train_v1.json ${JSON_FOLDER}/instruct_OpenCQA_train_data_no_order_v1.json \
+                ${JSON_FOLDER}/instruct_chart2text_dataset_OCR.json ${JSON_FOLDER}/instruct_OpenCQA_train_data.json \
     --tune_image_tower True \
     --tune_entire_model False \
     --tune_vit_from_layer -1 \
