@@ -36,9 +36,7 @@ The evaluation instruction is in [EVAL.md](docs/EVAL.md).
 ## Training Code
 The training process includes three stages.
 
-- Stage 1 pretraining script: [pretrain.sh](https://github.com/anonymousAskchart/AskChart/tree/main/scripts/v1/phi2/pretrain.sh). 
-- Stage 2 tuning script: [finetune.sh](https://github.com/anonymousAskchart/AskChart/tree/main/scripts/v1/phi2/finetune.sh).
-- Stage 3 moe-tuning script: [finetune_moe.sh](https://github.com/anonymousAskchart/AskChart/tree/main/scripts/v1/phi2/finetune_moe.sh).
+- Stage 1-3 pretraining and tuning script: [pretrain.sh](https://github.com/anonymousAskchart/AskChart/tree/main/scripts/v1/phi2/pretrain_tune.sh). 
 
 ## Dataset
 Due to the large and complex nature of the dataset, the complete data is still being organized. Below is a subset of the data for preview purposes.
