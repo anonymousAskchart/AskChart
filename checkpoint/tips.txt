@@ -1,1 +1,1 @@
-put all the checkpoints here.
+This directory is for all the checkpoints.
