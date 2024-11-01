@@ -28,7 +28,7 @@ pip install flash-attn --no-build-isolation
 ```
 
 ## Model Weights
-The model weights are on the to-do list. You can also load the stage II pre-trained model of Moe-LLaVA(https://github.com/PKU-YuanGroup/MoE-LLaVA) as the initial weights and retrain the AskChart model.
+The model weights are on the to-do list. You can also load the stage II pre-trained model of [Moe-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) as the initial weights and retrain the AskChart model.
 
 ## Evaluation Code
 The evaluation instruction is in [EVAL.md](docs/EVAL.md).
@@ -36,7 +36,7 @@ The evaluation instruction is in [EVAL.md](docs/EVAL.md).
 ## Training Code
 The training process includes three stages.
 
-- Stage 1-3 pretraining and tuning script: [pretrain.sh](https://github.com/anonymousAskchart/AskChart/tree/main/scripts/v1/phi2/pretrain_tune.sh). 
+- Stage 1-3 pretraining and tuning script: [pretrain_tune.sh](https://github.com/anonymousAskchart/AskChart/tree/main/scripts/v1/phi2/pretrain_tune.sh). 
 
 ## Dataset
 Due to the large and complex nature of the dataset, the complete data is still being organized. Below is a subset of the data for preview purposes.
